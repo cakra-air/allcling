@@ -25,21 +25,31 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 #KODIPROP:inputstream.adaptive.max_video_height=720
 https://cdn10jtedge.indihometv.com/atm/DASH/indosiar/manifest.mpd
 
-#EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="INDONESIA", GTV
-#KODIPROP:inputstreamaddon=inputstream.adaptive.max_video_height=720
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=036e85de0bb448eeb21d39ab300da48e:4c6f9b15dfab2a169b2b78a498c4d77d
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
+#KODIPROP:inputstream.adaptive.max_video_height=720
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
+#EXTVLCOPT:http-referrer=https://visionplus.id
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR dens
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
+http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 
-#EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="INDONESIA", GTV (Alternative)
+#KODIPROP:inputstream.adaptive.max_video_height=720
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",Indosiar VIP
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
+#https://wahyu1ptv.pages.dev/Indosiar-HD.m3u8
+
+#EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="INDONESIA", GTV 
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
 #KODIPROP:inputstreamaddon=inputstream.adaptive.max_video_height=720
 #KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
+
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/GTV_%282017%29.svg/1200px-GTV_%282017%29.svg.png" group-title="INDONESIA",GTV (R+)
+#EXTVLCOPT:http-user-agent=android-R+
+#EXTVLCOPT:http-referrer=https://www.rctiplus.com/
+https://r-plus.sedotcw3.workers.dev/index.m3u8?id=gtv
 
 # --- KELOMPOK TRANS 7 ---
 #EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans7" tvg-logo="https://object-streamo.emonaja.com/img/trans7.png" group-title="INDONESIA", Trans 7 (Transvision)
@@ -48,21 +58,16 @@ https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
 #KODIPROP:inputstream.adaptive.max_video_height=720
 https://cdnjktbpid22.transvision.co.id/riutx01/dash/VFJBTlM3LW15/manifest.mpd
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream.adaptive.max_video_height=720
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c59d66dbf59245e9b14cb47862c456b7:247bb0f6d1c9d64f589d8b2f8e631a53
-#EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans7" tvg-logo="https://object-streamo.emonaja.com/img/trans7.png" group-title="INDONESIA", Trans 7 (Alternative)
-https://cdn11jtedge.indihometv.com/dass/130/trans7/manifest_wuseetv.mpd
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_Trans7.png" group-title="INDONESIA", Trans 7 DT
+#EXTVLCOPT:http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36"
+#EXTVLCOPT:http-referrer="https://20.detik.com/"
+https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
 
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
-#KODIPROP:mimetype=application/dash+xml
-#KODIPROP:inputstream.adaptive.max_video_height=720
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/96/Logo_Trans7.png" group-title="INDONESIA", Trans 7 FM
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c59d66dbf59245e9b14cb47862c456b7:247bb0f6d1c9d64f589d8b2f8e631a53
-#EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans7" tvg-logo="https://object-streamo.emonaja.com/img/trans7.png" group-title="INDONESIA", Trans 7 (Alternative)
-https://cdn08jtedge.indihometv.com/dassdvr/130/trans7/manifest_wuseetv.mpd
+#KODIPROP:inputstream.adaptive.license_key=16e50b43a8fe4f9d8ed63a436161a28b:aa556111c986ba164a582811fb0d8c30
+https://atemeshield1-voe.sysln.id/live/eds/Trans7HD/mpd/Trans7HD.mpd
 
 # --- KELOMPOK TRANS TV ---
 #EXTINF:-1 tvg-id="TransTV.id" tvg-name="TransTV" tvg-logo="https://object-streamo.emonaja.com/img/transtv.png" group-title="INDONESIA", Trans TV (Transvision)
