@@ -25,17 +25,18 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 #KODIPROP:inputstream.adaptive.max_video_height=720
 https://cdn10jtedge.indihometv.com/atm/DASH/indosiar/manifest.mpd
 
-#EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="Indonesia (IPTV)", GTV
+#EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="INDONESIA", GTV
+#KODIPROP:inputstreamaddon=inputstream.adaptive.max_video_height=720
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=036e85de0bb448eeb21d39ab300da48e:4c6f9b15dfab2a169b2b78a498c4d77d
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2tjypxxy769fn.cloudfront.net/out/v1/b8b9b1d5f80f45649b4a3619291551ab/index.mpd
 
-#EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="Indonesia (IPTV)", GTV (Alternative)
+#EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="INDONESIA", GTV (Alternative)
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
-#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstreamaddon=inputstream.adaptive.max_video_height=720
 #KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn10jtedge.indihometv.com/atm/DASH/globaltv/manifest.mpd
@@ -49,20 +50,22 @@ https://cdnjktbpid22.transvision.co.id/riutx01/dash/VFJBTlM3LW15/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 #KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream.adaptive.max_video_height=720
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c59d66dbf59245e9b14cb47862c456b7:247bb0f6d1c9d64f589d8b2f8e631a53
-#EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans7" tvg-logo="https://object-streamo.emonaja.com/img/trans7.png" group-title="Indonesia (IPTV)", Trans 7 (Alternative)
+#EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans7" tvg-logo="https://object-streamo.emonaja.com/img/trans7.png" group-title="INDONESIA", Trans 7 (Alternative)
 https://cdn11jtedge.indihometv.com/dass/130/trans7/manifest_wuseetv.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Firefox/101.0 Safari/537.36 Edg/111.0.1661.43
 #KODIPROP:mimetype=application/dash+xml
+#KODIPROP:inputstream.adaptive.max_video_height=720
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=c59d66dbf59245e9b14cb47862c456b7:247bb0f6d1c9d64f589d8b2f8e631a53
-#EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans7" tvg-logo="https://object-streamo.emonaja.com/img/trans7.png" group-title="Indonesia (IPTV)", Trans 7 (Alternative)
+#EXTINF:-1 tvg-id="Trans7.id" tvg-name="Trans7" tvg-logo="https://object-streamo.emonaja.com/img/trans7.png" group-title="INDONESIA", Trans 7 (Alternative)
 https://cdn08jtedge.indihometv.com/dassdvr/130/trans7/manifest_wuseetv.mpd
 
 # --- KELOMPOK TRANS TV ---
-#EXTINF:-1 tvg-chno="8" tvg-id="TransTV.id" tvg-name="TransTV" tvg-logo="https://object-streamo.emonaja.com/img/transtv.png" group-title="INDONESIA", Trans TV (Transvision)
+#EXTINF:-1 tvg-id="TransTV.id" tvg-name="TransTV" tvg-logo="https://object-streamo.emonaja.com/img/transtv.png" group-title="INDONESIA", Trans TV (Transvision)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d4b636034b944d7c987871a3fdd25de4:a8294f4899a34cdb9429c49bc531d7d8
 #KODIPROP:inputstream.adaptive.max_video_height=720
@@ -120,77 +123,6 @@ https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 # --- LANJUTAN KELOMPOK TRANS 7 (MIRROR) ---
 
 
-# --- LANJUTAN KELOMPOK TRANS TV (MIRROR) ---
-#EXTINF:-1 tvg-chno="19" tvg-id="TransTV.id" tvg-name="TransTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", Trans TV (Alt 3)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=685d124959a94f89872760636a868956:5cda423e983403ee02b24ac8643470ee
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://cdn08jtedge.indihometv.com
-
-# --- LANJUTAN KELOMPOK ANTV (MIRROR) ---
-#EXTINF:-1 tvg-chno="20" tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", ANTV (Alt 3)
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=251c384e846841abafa1f7c723d57e66:e45b06a38cd261b74c5160f0912c042f
-#KODIPROP:inputstream.adaptive.max_video_height=720
-#EXTVLCOPT:http-referrer=https://www.visionplus.id
-https://d84q7nw4qf3j3.cloudfront.net
-
-# --- LANJUTAN KELOMPOK SCTV (MIRROR) ---
-#EXTINF:-1 tvg-chno="21" tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", SCTV (Alt 3)
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://cdn10jtedge.indihometv.com
-
-# --- LANJUTAN KELOMPOK INDOSIAR (MIRROR) ---
-#EXTINF:-1 tvg-chno="22" tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", Indosiar (Alt 3)
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://cdn10jtedge.indihometv.com
-
-# --- LANJUTAN KELOMPOK MOJI & MNCTV (MIRROR) ---
-#EXTINF:-1 tvg-chno="23" tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", Moji (Alt 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-http://202.169.224.202
-
-#EXTINF:-1 tvg-chno="24" tvg-id="MNCTV.IPTV" tvg-name="MNCTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", MNCTV (Alt 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-http://vipnorseman.top
-
-#EXTINF:-1 tvg-chno="25" tvg-id="ANTV" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", ANTV (Alternative 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-http://exm3u.extraott.com
-
-#EXTINF:-1 tvg-chno="26" tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", SCTV (Alternative 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-http://exm3u.extraott.com
-
-#EXTINF:-1 tvg-chno="27" tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", Moji (Alternative 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://wahyu1ptv.pages.dev
-
-#EXTINF:-1 tvg-chno="28" tvg-id="MNCTV.IPTV" tvg-name="MNCTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", MNCTV (Alternative 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-http://exm3u.extraott.com
-
-#EXTINF:-1 tvg-chno="29" tvg-name="MDTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", MDTV (Alternative)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://wahyu1ptv.pages.dev
-
-#EXTINF:-1 tvg-chno="30" tvg-id="Trans7.id" tvg-name="Trans 7" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", Trans 7 (Alternative 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://cdnjktbpid22.transvision.co.id
-
-#EXTINF:-1 tvg-chno="31" tvg-id="TransTV.id" tvg-name="Trans TV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", Trans TV (Alternative 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://cdnjktbpid22.transvision.co.id
-
-#EXTINF:-1 tvg-chno="32" tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", Indosiar (Alternative 3)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://d2tjypxxy769fn.cloudfront.net
-
-#EXTINF:-1 tvg-chno="33" tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com" group-title="INDONESIA", ANTV (Alternative 4)
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://d84q7nw4qf3j3.cloudfront.net
 
 
 -- TVRI --
