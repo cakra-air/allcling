@@ -1,5 +1,10 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/doms9/iptv/refs/heads/default/M3U8/TV.xml"
 
+#KODIPROP:inputstream.adaptive.max_video_height=720
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="LIVE",BOLA
+#EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
+https://agvyby.fubohd.com/espn/mono.m3u8?token=0b37c6884bc29ee70d12c1509617e00e8758d8d2-92-1774706501-1774688501
+
 #EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="INDONESIA", SCTV (IndiHome)
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
@@ -7,9 +12,12 @@
 #KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
 https://cdn10jtedge.indihometv.com/atm/DASH/sctv/manifest.mpd
 
-#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="INDONESIA", SCTV (Digital)
-#KODIPROP:inputstream.adaptive.max_video_height=720
+#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="INDONESIA", SCTV ex
+#EXT-X-VERSION:4
+#EXT-X-INDEPENDENT-SEGMENTS
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1200000
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXT-X-STREAM-INF:BANDWIDTH=1140692,AVERAGE-BANDWIDTH=1031069,RESOLUTION=640x480,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
 http://exm3u.extraott.com:80/live/6JG6WQTK/1RS973F7/1067262.m3u8
 
 #EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="INDONESIA", SCTV SD
@@ -22,21 +30,12 @@ http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 # --- KELOMPOK INDOSIAR ---
 #EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com/img/indosiar.png" group-title="INDONESIA", Indosiar (IndiHome)
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
-#KODIPROP:inputstream.adaptive.max_video_height=480
+#KODIPROP:inputstream.adaptive.max_video_height=720
 https://cdn10jtedge.indihometv.com/atm/DASH/indosiar/manifest.mpd
 
-#KODIPROP:inputstream.adaptive.max_video_height=720
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NDIzMDJhZmUtYWRjMi0zNGJkLTkyN2EtYmE1ZDFlZWIwODEz
-#EXTVLCOPT:http-referrer=https://visionplus.id
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR dens
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
-
-#KODIPROP:inputstream.adaptive.max_video_height=720
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",Indosiar VIP
-#EXTVLCOPT:http-user-agent=Player (Linux; Android 12)
-#https://wahyu1ptv.pages.dev/Indosiar-HD.m3u8
 
 #EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="INDONESIA", GTV 
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
@@ -72,28 +71,30 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/in
 #KODIPROP:inputstream.adaptive.max_video_height=720
 https://cdnjktbpid22.transvision.co.id/riutx01/dash/VHJhbnNUVg/manifest.mpd
 
-#EXTINF:-1 tvg-id="TransTV.id" tvg-name="TransTV" tvg-logo="https://object-streamo.emonaja.com/img/transtv.png" group-title="INDONESIA", Trans TV (IndiHome)
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
+#EXTINF:-1 tvg-chno="9" tvg-id="TransTV.id" tvg-name="TransTV" tvg-logo="https://object-streamo.emonaja.com/img/transtv.png" group-title="INDONESIA", Trans TV (IndiHome)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=685d124959a94f89872760636a868956:5cda423e983403ee02b24ac8643470ee
-#KODIPROP:inputstream.adaptive.max_video_height=480
+#KODIPROP:inputstream.adaptive.max_video_height=720
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdn10jtedge.indihometv.com/atm/DASH/transtv/manifest.mpd
 
-#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (Transvision)
+ #EXTINF:-1, GTVhtp://202.80.222.20/cdn/ipv/Tvod/001/channel2000113/1024.m3u8#EXTINF:-1, Trans Tvhtp://202.80.222.20/cdn/ipv/Tvod/001/channel2000009/1024.m3u8#EXTINF:-1, Trans 7htp://202.80.222.20/cdn/ipv/Tvod/001/channel2000008/1024.m3u8#EXTINF:-1, Anvhtp://202.80.222.20/cdn/ipv/Tvod/001/channel20000
+
+#EXTINF:-1 tvg-chno="11" tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (Transvision)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d4b636034b944d7c987871a3fdd25de4:a8294f4899a34cdb9429c49bc531d7d8
 #KODIPROP:inputstream.adaptive.max_video_height=720
 https://cdnjktbpid22.transvision.co.id/riutx01/dash/QU5UVg/manifest.mpd
 
-#EXTINF:-1 tvg-id="ANTV" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (Digital)
+#EXTINF:-1 tvg-chno="12" tvg-id="ANTV" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (Digital)
 #KODIPROP:inputstream.adaptive.max_video_height=480
 http://EXM3U.extraott.com:80/live/6JG6WQTK/1RS973F7/7621.m3u8
 
-#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (indihome)
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
+#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV", tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (indihome)
 #KODIPROP:inputstream.adaptive.max_video_width=1280
 #KODIPROP:inputstream.adaptive.max_video_height=480
-https://cdn10jtedge.indihometv.com/atm/DASH/antv/manifest.mpd
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
+https://cdn14jtedge.indihometv.com/dass/130/antv/manifest_wuseetv.mpd
 
 
 # --- KELOMPOK MOJI ---
