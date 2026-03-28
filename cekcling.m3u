@@ -147,43 +147,37 @@ https://op-group1-swiftservehd-1.dens.tv/h/h12/02.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0)Gecko/20100101 Firefox/101.0
 https://op-group1-swiftservehd-1.dens.tv/h/h37/index.m3u8
 
-#EXTINF:-1 tvg-id="BERITA SATU" group-title="INDONESIA",BERITA SATU
+#EXTINF:-1 tvg-id="BERITA SATU" group-title="INDONESIA",BERITA SATU sd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0)Gecko/20100101 Firefox/101.0
 https://op-group1-swiftservehd-1.dens.tv/h/h209/index.m3u8
 
-#EXTINF:-1 tvg-id="Btv" group-title="INDONESIA",B TV
+#EXTINF:-1 tvg-id="Btv" group-title="INDONESIA",Btv SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0)Gecko/20100101 Firefox/101.0
 https://op-group1-swiftservehd-1.dens.tv/h/h210/index.m3u8
 
-#EXTINF:-1 tvg-id="dvc" group-title="INDONESIA",DFC
+#EXTINF:-1 tvg-id="dvc" group-title="INDONESIA",DFC SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0)Gecko/20100101 Firefox/101.0
 https://op-group1-swiftservehd-1.dens.tv/h/h221/index.m3u8
 
-#EXTINF:-1 tvg-id="Magna.id" tvg-name="Magna" tvg-logo="https://object-streamo.emonaja.com/img/magna.webp" group-title="Indonesia (IPTV)", Magna Channel 
+#EXTINF:-1 tvg-id="Magna.id" tvg-name="Magna" tvg-logo="https://object-streamo.emonaja.com/img/magna.webp" group-title="INDONESIA", Magna Channel 
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 https://edge.medcom.id/live-edge/smil:magna.smil/playlist.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-name="Nusantara TV" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/nusantara.png" group-title="Indonesia (IPTV)", Nusantara TV
+#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-name="Nusantara TV" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/nusantara.png" group-title="INDONESIA", Nusantara TV
 https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
-#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-name="Nusantara TV" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/nusantara.png" group-title="Indonesia (IPTV)", Nusantara TV (Alternative)
+#EXTINF:-1 tvg-id="Nusantara.TV.id" tvg-name="Nusantara TV" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/nusantara.png" group-title="INDONESIA", Nusantara TV (Alternative)
 #EXTVLCOPT:http-referrer=http://www.dens.tv/
 https://op-group1-swiftservehd-1.dens.tv/h/h37/index.m3u8?app_type=web&userid=lite&chname=Nusantara_TV_NTV-
 
-#EXTINF:-1 tvg-id="Garuda TV.id" tvg-name="Garuda TV" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/garuda.png" group-title="Indonesia (IPTV)", Garuda TV
+#EXTINF:-1 tvg-id="Garuda TV.id" tvg-name="Garuda TV" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/garuda.png" group-title="INDONESIA", Garuda TV
 #EXTVLCOPT:http-referrer=https://garuda.tv/
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://hgmtv.com:19360/garudatvlivestreaming/720p.m3u8
 
-#KODIPROP:inputstream=inputstream.adaptive
-#KODIPROP:inputstream.adaptive.manifest_type=hls
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0
-#EXTINF:-1 tvg-name="RTV" tvg-logo="https://object-streamo.emonaja.com/img/rtv.png" group-title="Indonesia (IPTV)", RTV
-https://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=lite&chname=RTV
-
-#EXTINF:-1 tvg-name="RTV" tvg-logo="https://object-streamo.emonaja.com/img/rtv.png" group-title="Indonesia (IPTV)", RTV (Alternative)
+#EXTINF:-1 tvg-name="RTV" tvg-logo="https://object-streamo.emonaja.com/img/rtv.png" group-title="INDONESIA", RTV (Indihome)
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -192,11 +186,11 @@ https://op-group1-swiftservehd-1.dens.tv/h/h10/index.m3u8?app_type=web&userid=li
 https://cdn10jtedge.indihometv.com/atm/DASH/RAJAWALI_TV/manifest.mpd
 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleCoreMedia/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXTINF:-1 tvg-name="Sin Po TV" tvg-id="SinPOTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sin_Po_TV.svg/960px-Sin_Po_TV.svg.png" group-title="Indonesia (IPTV)", SIN PO TV
+#EXTINF:-1 tvg-name="Sin Po TV" tvg-id="SinPOTV.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Sin_Po_TV.svg/960px-Sin_Po_TV.svg.png" group-title="INDONESIA", SIN PO TV
 https://cdn10jtedge.indihometv.com/atm/DASH/sinpotv/manifest.mpd
 https://nextgenz.my.id/event/pidio/play.mpd?id=19046&type=dash
 
-#EXTINF:-1 tvg-id="Indonesiana TV" tvg-url="Indonesiana.TV.id" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/indosiana.png" group-title="Indonesia (IPTV)", Indonesiana TV
+#EXTINF:-1 tvg-id="Indonesiana TV" tvg-url="Indonesiana.TV.id" tvg-logo="https://raw.githubusercontent.com/jrpahe-del/Logo/refs/heads/main/indosiana.png" group-title="INDONESIA", Indonesiana TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 https://tvstreamcast.com/indonesiana.m3u8
 
