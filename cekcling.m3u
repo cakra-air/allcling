@@ -73,10 +73,10 @@ https://d2tjypxxy769fn.cloudfront.net/out/v1/0fd7b7d368bc44bc9b4dece20acc3e33/in
 https://cdnjktbpid22.transvision.co.id/riutx01/dash/VHJhbnNUVg/manifest.mpd
 
 #EXTINF:-1 tvg-id="TransTV.id" tvg-name="TransTV" tvg-logo="https://object-streamo.emonaja.com/img/transtv.png" group-title="INDONESIA", Trans TV (IndiHome)
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=685d124959a94f89872760636a868956:5cda423e983403ee02b24ac8643470ee
 #KODIPROP:inputstream.adaptive.max_video_height=720
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
 https://cdn14jtedge.indihometv.com/dass/130/transtv/manifest_wuseetv.mpd
 
 #EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (Transvision)
@@ -90,9 +90,9 @@ https://cdnjktbpid22.transvision.co.id/riutx01/dash/QU5UVg/manifest.mpd
 http://EXM3U.extraott.com:80/live/6JG6WQTK/1RS973F7/7621.m3u8
 
 #EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (indihome)
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.max_video_width=1280
 #KODIPROP:inputstream.adaptive.max_video_height=480
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 https://cdn14jtedge.indihometv.com/dass/130/antv/manifest_wuseetv.mpd
 
 
