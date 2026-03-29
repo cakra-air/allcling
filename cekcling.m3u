@@ -84,8 +84,8 @@ https://cdn10jtedge.indihometv.com/atm/DASH/transtv/manifest.mpd
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36
 https://wahyu1ptv.pages.dev/Moji-HD.m3u8
 
-#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com/img/moji.png" group-title="INDONESIA", Moji (Alt)
-#KODIPROP:inputstream.adaptive.max_video_height=720
+#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com/img/moji.png" group-title="INDONESIA", Moji
+#KODIPROP:inputstream.adaptive.max_video_height=720 
 #EXTVLCOPT:http-user-agent=NSPlayer/12.00.9651.000
 http://202.169.224.202:8800/udp/239.9.1.32:1234
 
@@ -96,7 +96,7 @@ http://202.169.224.202:8800/udp/239.9.1.32:1234
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/index.mpd
 
-#EXTINF:-1 tvg-id="RCTI.IPTV" tvg-name="RCTI" tvg-logo="https://object-streamo.emonaja.com/img/rcti.png" group-title="INDONESIA", RCTI (Alternative)
+#EXTINF:-1 tvg-id="RCTI.IPTV" tvg-name="RCTI" tvg-logo="https://object-streamo.emonaja.com/img/rcti.png" group-title="INDONESIA", RCTI H
 #KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.indihometv.com
 #KODIPROP:inputstreamaddon=inputstream.adaptive
@@ -104,7 +104,7 @@ https://d2xz2v5wuvgur6.cloudfront.net/out/v1/997ce8767b604fae9fce05379b3b8b3a/in
 #KODIPROP:inputstream.adaptive.stream_headers=User-Agent=|user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1& Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 https://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
 
-#EXTINF:-1 tvg-id="MNCTV.IPTV" tvg-name="MNCTV" tvg-logo="https://object-streamo.emonaja.com/img/mnctv.png" group-title="INDONESIA", MNCTV (Digital)
+#EXTINF:-1 tvg-id="MNCTV.IPTV" tvg-name="MNCTV" tvg-logo="https://object-streamo.emonaja.com/img/mnctv.png" group-title="INDONESIA", MNCTV 
 #KODIPROP:inputstream.adaptive.max_video_height=720
 http://EXM3U.extraott.com:80/live/6JG6WQTK/1RS973F7/149819.m3u8
 
@@ -125,7 +125,7 @@ https://op-group1-swiftservehd-1.dens.tv/h/h223/02.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0)Gecko/20100101 Firefox/101.0
 https://op-group1-swiftservehd-1.dens.tv/h/h10/02.m3u8
 
-#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (Transvision)
+#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="INDONESIA", ANTV (TVision)
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d4b636034b944d7c987871a3fdd25de4:a8294f4899a34cdb9429c49bc531d7d8
 #KODIPROP:inputstream.adaptive.max_video_height=720
