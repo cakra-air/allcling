@@ -1,0 +1,16 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="SCTV" group-title="EMTEK",SCTV HD (Penyamaran Browser)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer":"https://vidio.com"}
+https://www.vidio.com/live/204-sctv
+
+#EXTINF:-1 tvg-id="Indosiar" group-title="EMTEK",Indosiar HD (Penyamaran Browser)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer":"https://vidio.com"}
+https://www.vidio.com/live/205-indosiar
+
+#EXTINF:-1 tvg-id="ANTV" group-title="EMTEK",ANTV (Penyamaran Browser)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTHTTP:{"Referer":"https://vidio.com"}
+https://www.vidio.com/live/782-antv
