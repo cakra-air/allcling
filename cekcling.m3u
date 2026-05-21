@@ -41,8 +41,7 @@ http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
 
 #EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://object-streamo.emonaja.com/img/gtv.png" group-title="INDONESIA", GTV plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
-#KODIPROP:inputstream.adaptive.stream_headers=Origin=https://www.rctiplus.com
-#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.rctiplus.com
+#EXTVLCOPT:http-referrer=https://embed.rctiplus.com/
 #KODIPROP:inputstreamaddon=inputstream.adaptive.max_video_height=720
 #KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
 https://gtv-linier.rctiplus.id/hdntl=exp=1779418128~acl=%2F*~data=hdntl~hmac=081227b6a06e031f993950ee509b8614608daa0cb7660202258a066cd102cd76/gtv-sdi-avc1_600000=5-mp4a_96000=1.m3u8
