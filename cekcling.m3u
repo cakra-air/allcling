@@ -100,7 +100,7 @@ https://cdn10jtedge.indihometv.com/atm/DASH/rcti/manifest.mpd
 #KODIPROP:inputstream.adaptive.max_video_height=720
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-https://mnctv-linier.rctiplus.id/hdntl=exp=1779348511~acl=%2F*~data=hdntl~hmac=8cceaaf92ae8c401250c04b38e0d0d773ab47c22621abce50562bc238a31f0cd/mnctv-sdi-avc1_450000=9-mp4a_96000=1.m3u8
+https://mnctv-linier.rctiplus.id/hdntl=exp=1779418813~acl=%2F*~data=hdntl~hmac=65c60c7983da06b0dcac460209a71b48fc8feedf955c63886bf7eb001b9dc2e0/mnctv-sdi-avc1_210000=10-mp4a_96000=1.m3u8
 
 
 #EXTINF:-1 tvg-id="MNCTV.IPTV" tvg-name="MNCTV" tvg-logo="https://object-streamo.emonaja.com/img/mnctv.png" group-title="INDONESIA", MNCTV 
