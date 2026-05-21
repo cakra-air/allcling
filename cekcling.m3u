@@ -1877,19 +1877,19 @@ https://kocak.abahdi.workers.dev?id=782
 #EXTVLCOPT:http-referrer=https://rctiplus.com
 #KODIPROP:inputstreamaddon=inputstream.adaptive.max_video_height=720
 #KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
-https://kocak.abahdi.workers.dev?id=gtv
+https://abah.byethost17.com?id=gtv
 
 #EXTINF:-1 tvg-id="RCTI.IPTV" tvg-name="RCTI" tvg-logo="https://object-streamo.emonaja.com/img/rcti.png" group-title="ind", RCTI plus1
 #KODIPROP:inputstream.adaptive.max_video_height=720
 #EXTVLCOPT:http-referrer=https://embed.rctiplus.com/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-https://kocak.abahdi.workers.dev?id=rcti
+https://abah.byethost17.com/?id=rcti
 
 #EXTINF:-1 tvg-id="MNCTV" tvg-name="MNCTV" tvg-logo="https://emonaja.com" group-title="ind",MNCTV plus1
 #KODIPROP:inputstream.adaptive.max_video_height=720
 #EXTVLCOPT:http-referrer=https://rctiplus.com
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
-https://kocak.abahdi.workers.dev?id=mnctv
+https://abah.byethost17.com/?=mnctv
 
 #EXTINF:-1 tvg-id="GTV.IPTV" tvg-name="GTV" tvg-logo="https://emonaja.com" group-title="ind", GTV plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36
