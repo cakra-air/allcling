@@ -29,11 +29,10 @@ https://etslive-v3-vidio-com-tokenized.akamaized.net/stream/204/file/stream.mpd
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 
 # --- KELOMPOK INDOSIAR ---
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com/img/indosiar.png" group-title="INDONESIA", Indosiar (IndiHome)
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://www.dens.tv/images/icons/navmenu/tvchannels-black.png" group-title="INDONESIA", jowot pedia
 #EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
 #KODIPROP:inputstream.adaptive.max_video_height=720
-https://cdn10jtedge.indihometv.com/atm/DASH/indosiar/manifest.mpd
-https://cdnjkt913.transvision.co.id:1004/live/master/1/4028c6856c3db2cc016cd6e773b02392/manifest.mpd
+https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR dens
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
