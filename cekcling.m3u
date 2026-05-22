@@ -11,16 +11,6 @@ https://a62dad94.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 #KODIPROP:inputstream.adaptive.stream_headers=Connection=keep-alive
 https://cdn10jtedge.indihometv.com/atm/DASH/sctv/manifest.mpd
 
-#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="INDONESIA", SCTV ex
-#EXT-X-VERSION:4
-#EXT-X-INDEPENDENT-SEGMENTS
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1200000
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-#EXT-X-STREAM-INF:BANDWIDTH=1140692,AVERAGE-BANDWIDTH=1031069,RESOLUTION=640x480,FRAME-RATE=25.000,CODECS="avc1.64001F,mp4a.40.2",AUDIO="audio_0"
-#http://exm3u.extraott.com:80/live/6JG6WQTK/1RS973F7/1067262.m3u8
-https://atemecdnbalancer-voe.sysln.id/live/eds/SCTVHD/mpd/SCTVHD.mpd
-https://etslive-v3-vidio-com-tokenized.akamaized.net/stream/204/file/stream.mpd
-
 #EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://www.mncvision.id/userfiles/image/channel/sctv.png" group-title="INDONESIA", SCTV SD
 #EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
 #EXTVLCOPT:http-referrer=http://dens.tv
@@ -28,15 +18,15 @@ https://etslive-v3-vidio-com-tokenized.akamaized.net/stream/204/file/stream.mpd
 #KODIPROP:inputstream.adaptive.max_bandwidth=2000000
 http://op-group1-swiftservehd-1.dens.tv/h/h217/02.m3u8
 
-# --- KELOMPOK INDOSIAR ---
-#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://www.dens.tv/images/icons/navmenu/tvchannels-black.png" group-title="INDONESIA", jowot pedia
-#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
-#KODIPROP:inputstream.adaptive.max_video_height=720
-https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR dens
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h235/02.m3u8
+
+# --- KELOMPOK INDOSIAR ---
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://www.dens.tv/images/icons/navmenu/tvchannels-black.png" group-title="INDONESIA", jowo
+#EXTVLCOPT:http-user-agent=IndiHomeTV/8.7.12 (Linux;Android 15.0.0;)&Origin=https://www.indihometv.com&Referer=https://www.indihometv.com
+#KODIPROP:inputstream.adaptive.max_video_height=720
+https://op-group1-swiftservehd-1.dens.tv/h/h77/S4/mnf.m3u8
 
 #EXTINF:-1 tvg-id="iNews.IPTV" tvg-name="iNews" tvg-logo="https://object-streamo.emonaja.com/img/inews.png" group-title="INDONESIA", iNews plus
 #EXTVLCOPT:http-user-agent=android-R+
