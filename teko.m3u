@@ -43,7 +43,7 @@ https://juss.abahdi.workers.dev/?id=2
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36
 https://juss.abahdi.workers.dev/?id=1
 
-#EXTINF:-1 tvg-id="iNews.IPTV" tvg-name="iNews" tvg-logo="https://object-streamo.emonaja.com/img/inews.png" group-title="INDONESIA", iNews
+#EXTINF:-1 tvg-id="iNews.IPTV" tvg-name="iNews" tvg-logo="https://object-streamo.emonaja.com/img/inews.png" group-title="INDONESIA", iNews plus
 #EXTVLCOPT:http-user-agent=android-R+
 #EXTVLCOPT:http-referrer=https://www.rctiplus.com/
 https://juss.abahdi.workers.dev/?id=4
