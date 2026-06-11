@@ -141,6 +141,13 @@ https://wahyu1ptv.pages.dev/Moji-HD.m3u8
 #KODIPROP:inputstream.adaptive.manifest_type=dash
 https://indihuy.streamized.net/atm/DASH/zbioskop/zbioskop-avc1_2500000=7-3277707030000000.mpd
 
+#EXTINF:-1 group-title="Movies" tvg-logo="https://raw.githubusercontent.com/apistech/project/refs/heads/main/logo/image_ch_zeebioskop.png", Zee Bioskop (indihome)
+#EXTVLCOPT:http-user-agent=Mozila/5.0 (Windows NT 10.0; Win64; x64; rv:145.0) Gecko/20100101 Firefox/145.0
+#EXTVLCOPT:http-referrer=https://maxstream.tv/
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+https://cdnbal1.indihometv.com/atm/DASH/zbioskop/zbioskop-avc1_2500000=7-3277707030000000.mpd
+
 #EXTINF:-1 tvg-id="Citra.Plus.id" tvg-name="Citra Plus" tvg-logo="https://raw.githubusercontent.com/DinasKegelapanKotaKonoha/romlah-gunadi/refs/heads/main/citra_plus.png" group-title="INDONESIA", Citra Plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 14; Google TV Streamer Build/UTT3.240625.001.K5; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/130.0.6723.60 Mobile Safari/537.36
 #KODIPROP:inputstream.adaptive.manifest_type=dash
@@ -181,6 +188,38 @@ https://op-group1-swiftservehd-1.dens.tv/h/h40/index.m3u8
 #EXTINF:-1 tvg-id="MetroTV" group-title="INDONESIA",METROTV SD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0)Gecko/20100101 Firefox/101.0
 https://op-group1-swiftservehd-1.dens.tv/h/h12/02.m3u8
+
+-- Indonesia (Digital) --
+
+#EXTINF:-1 tvg-name="TVRI Nasional" tvg-id="TVRINasional.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/TVRILogo2019.svg/1280px-TVRILogo2019.svg.png" group-title="Indonesia (Digital)", TVRI Nasional (UHF)
+#EXTVLCOPT:http-user-agent=ExoPlayerDemo/2.15.1 (Linux; Android 13) ExoPlayerLib/2.15.1
+http://opplextv.cyou:8080/nasir6160/nasir/351047
+
+#EXTINF:-1 tvg-name="TVRI Sport" tvg-id="TVRI.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/TVRI_Sport_2022.svg/1280px-TVRI_Sport_2022.svg.png" group-title="Indonesia (Digital)", TVRI Sport (UHF)
+http://103.148.44.38:8000/play/a05u/index.m3u8
+
+#EXTINF:-1 tvg-id="ANTV.id" tvg-name="ANTV" tvg-logo="https://object-streamo.emonaja.com/img/antv.png" group-title="Indonesia (Digital)", ANTV (UHF)
+https://wahyu1ptv.pages.dev/AnTV-HD.m3u8
+
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com/img/indosiar.png" group-title="Indonesia (Digital)", Indosiar (UHF)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0/v2206
+http://103.148.44.38:8000/play/a05c/index.m3u8
+
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-name="Indosiar" tvg-logo="https://object-streamo.emonaja.com/img/indosiar.png" group-title="Indonesia (Digital)", Indosiar (UHF Alt)
+http://opplextv.cyou:8080/live/nasir6160/nasir/350972.ts
+
+#EXTINF:-1 tvg-id="SCTV.id" tvg-name="SCTV" tvg-logo="https://object-streamo.emonaja.com/img/sctv.png" group-title="Indonesia (Digital)", SCTV (UHF)
+http://opplextv.cyou:8080/nasir6160/nasir/351030
+
+#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com/img/moji.png" group-title="Indonesia (Digital)", Moji (UHF)
+https://tv.ngebutz.my.id:443/play/55c8cVrvhcFPEgTjgh2C85t_z0_MBwZtd69IGhbSfdg/ts
+
+#EXTINF:-1 tvg-id="Moji.id" tvg-name="Moji" tvg-logo="https://object-streamo.emonaja.com/img/moji.png" group-title="Indonesia (Digital)", Moji (UHF Alt)
+http://opplextv.cyou:8080/nasir6160/nasir/350997
+
+#EXTINF:-1 tvg-name="MDTV" tvg-logo="https://object-streamo.emonaja.com/img/mdtv.png" group-title="Indonesia (Digital)", MDTV (UHF)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; SM-G9980) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+https://wahyu1ptv.pages.dev/MDTV-HD.m3u8
 
 #EXTINF:-1 tvg-id="RCTI.IPTV" tvg-name="RCTI" tvg-logo="https://object-streamo.emonaja.com/img/rcti.png" group-title="Indonesia (IPTV)", RCTI (R+)
 #EXTVLCOPT:http-user-agent=android-R+
