@@ -1929,10 +1929,10 @@ https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883047
 
 #EXTINF:-1 tvg-id="Premier.Sports.1.HD.uk" tvg-name="Premier Sports 1" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s79027_dark_360w_270h.png" group-title="Sports", Premier Sports 1
-https://starshare.st/live/P4B9TB9xR8/humongous2tonight/5029.ts
+https://starshare.st/live/P4B9TB9xR8/humongous2tonight.m3u8
 
 #EXTINF:-1 tvg-id="Premier.Sports.2.HD.uk" tvg-name="Premier Sports 2" tvg-logo="http://schedulesdirect-api20141201-logos.s3.dualstack.us-east-1.amazonaws.com/stationLogos/s109162_dark_360w_270h.png" group-title="Sports", Premier Sports 2
-https://starshare.st/live/P4B9TB9xR8/humongous2tonight/5030.m3u8
+https://starshare.st/live/P4B9TB9xR8/humongous2tonight.m3u8
 
 
 -- Music --
