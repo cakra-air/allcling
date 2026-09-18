@@ -42,20 +42,6 @@ https://r-plus.sedotcw3.workers.dev/index.m3u8?id=inews
 #EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1","user-agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1"}
 https://op-flashcon-digdayahd-1.dens.tv/h/h207/01.m3u8
 
-#EXTINF:-1 tvg-id="Sportstars2.id@SD" group-title="ASEAN Championship Hyundai Cup 2026" tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/58/Logo_Piala_Asean_2026.svg.png", Sportstars 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/150.0.0.0 Safari/537.36 Edg/150.0.0.0
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key=911e72adf36946afbdbb4f80782a8394:08aec548a851ba64b7172ae7f05cb91c
-https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/index.mpd
-
-#EXTINF:-1 tvg-id="SoccerChannel.id" tvg-name="Soccer Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/58/Logo_Piala_Asean_2026.svg.png" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-title="ASEAN Championship Hyundai Cup 2026", Soccer Channel
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=4035323a7fe64767ab8f3345ed9b93be:67377b8d429603f8bf30c161bda269e5
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
-
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR ID
 #KODIPROP:inputstream.adaptive.max_video_height=480
 https://indihuy.streamized.net/atm/DASH/indosiar/manifest.mpd
