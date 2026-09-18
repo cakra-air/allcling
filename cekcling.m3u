@@ -48,26 +48,13 @@ https://d3b0v7fggu5zwm.cloudfront.net/out/v1/d2c68a3dfb644808b416bd90dcc92d5f/in
 #KODIPROP:inputstream.adaptive.license_key=4035323a7fe64767ab8f3345ed9b93be:67377b8d429603f8bf30c161bda269e5
 https://d2xz2v5wuvgur6.cloudfront.net/out/v1/63c0da12bb4d48afbaf053f51dff2353/index.mpd
 
-#EXTINF:-1 tvg-id="Sportstars2.id@SD" tvg-name="Sportstars 2" tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/58/Logo_Piala_Asean_2026.svg.png" tvg-url="https://raw.githubusercontent.com/apistech/project/refs/heads/main/ApisTECH.xml" group-title="ASEAN Championship Hyundai Cup 2026", V+ Sports
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
-#EXTVLCOPT:http-referrer=https://www.visionplus.id/
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=c6430463ab1d4e5080b7a962c766e7a0:66d8ba98f50a4147c9c71a9d4b32fbc6
-https://d2xz2v5wuvgur6.cloudfront.net/out/v1/f224a4945f2f48e892fb896645a9af6b/index.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=91b9592c819246c68b3b08a1fe08ba22:fa0d80dfd865b34077bae44cd4a0c5e6
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/58/Logo_Piala_Asean_2026.svg.png" group-title="ASEAN Championship Hyundai Cup 2026", Mediacorp Live 5
-https://tglmp04.akamaized.net/out/v1/400fc0702dee453bb33ebcc29466e58a/manifest.mpd
-
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=d418f733ed224f9bb9c2b1589db22a20:6ed6fe26daa4b926810869ff60254ebb
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/58/Logo_Piala_Asean_2026.svg.png" group-title="ASEAN Championship Hyundai Cup 2026", Mediacorp Live 6
-https://tglmp02.akamaized.net/out/v1/cc0fc82e76cb4e0093e81695284af443/manifest.mpd
-
-#EXTVLCOPT:http-user-agent=Plus-Official-Box
-#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/id/5/58/Logo_Piala_Asean_2026.svg.png" group-title="ASEAN Championship Hyundai Cup 2026", True Sports 2
-http://api.plus-server.sbs/play.php?key=1234&ch=truesporthd2
+#EXTINF:-1 tvg-id="Indosiar.id" tvg-logo="https://thumbor.prod.vidiocdn.com/0plBZ7Gso7gNBJxid9ksA8HMGxc=/230x230/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/square_image/205/54ab19.png" group-title="ASEAN Championship Hyundai Cup 2026",Indosiar HD
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#EXTVLCOPT:http-origin=https://www.dens.tv
+#EXTVLCOPT:http-user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://www.dens.tv/|referrer=https://www.dens.tv/|Origin=https://www.dens.tv|User-Agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1|user-agent=DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1
+#EXTHTTP:{"Referer":"https://www.dens.tv/","referrer":"https://www.dens.tv/","Origin":"https://www.dens.tv","User-Agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1","user-agent":"DENSGO/3.00.00 (Linux;Android 15.0.0;) ExoPlayerLib/2.19.1"}
+https://op-flashcon-digdayahd-1.dens.tv/h/h207/01.m3u8
 
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/INDOSIAR_Logo.png/1280px-INDOSIAR_Logo.png" group-title="INDONESIA",INDOSIAR ID
 #KODIPROP:inputstream.adaptive.max_video_height=480
